@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io" // Added io import
+	"io"
 	"log"
 	"net/http"
 	"old-attendance/zk"
@@ -23,6 +23,11 @@ const (
 	authorizationHeader = "Authorization"
 	jsonContentType     = "application/json"
 	bearerPrefix        = "Bearer "
+
+	// File to persist the last check timestamp
+	lastCheckFile = "last_check.txt"
+	// File to save the latest fetched logs
+	logsFile = "latest_logs.json"
 )
 
 // AttendancePayload defines the structure for the data sent to the API
@@ -35,7 +40,6 @@ func main() {
 	// Load .env file from the current directory or the directory where the executable is run
 	err := godotenv.Load()
 	if err != nil {
-		// It's often fine if .env doesn't exist, especially in production where env vars are set directly
 		log.Println("Info: No .env file found or error loading it. Using environment variables directly.", err)
 	}
 
@@ -43,95 +47,83 @@ func main() {
 	log.Println("Performing initial sync...")
 	performSync()
 
-	// Set up ticker for periodic sync (every 5 minutes)
-	ticker := time.NewTicker(1 * time.Minute)
+	// Set up ticker for periodic sync (interval taken from env or default to 5 minutes)
+	intervalStr := os.Getenv("SYNC_INTERVAL") // int value minutes
+	interval, err := time.ParseDuration(intervalStr + "m")
+	if err != nil || interval <= 0 {
+		interval = 5 * time.Minute
+		log.Printf("Invalid or missing SYNC_INTERVAL, defaulting to %v", interval)
+	}
+	ticker := time.NewTicker(interval)
 	defer ticker.Stop()
 
-	log.Println("Starting periodic sync every 5 minutes...")
-	// Loop indefinitely, waiting for the ticker
+	log.Printf("Starting periodic sync every %v...", interval)
+
 	for range ticker.C {
 		log.Println("Performing scheduled sync...")
 		performSync()
 	}
 }
 
-// performSync handles the process of connecting to devices, fetching logs, and sending them to the API
+// performSync handles connecting to devices, fetching logs, sending them to the API, and persisting state
 func performSync() {
 	log.Println("Sync process started.")
 
+	// Load last checked time from disk
+	lastChecked := getLastCheckTime()
+
 	// Get configuration from environment variables
-	deviceIPs := os.Getenv("DEVICE_IPS") // Comma-separated: "IP1:PORT1,IP2:PORT2"
+	deviceIPs := os.Getenv("DEVICE_IPS")
 	apiURL := os.Getenv("API_URL")
 	orgID := os.Getenv("ORG_ID")
-	// Optional: API Key if needed
 	apiKey := os.Getenv("API_KEY")
 
-	// Basic validation of required config
+	// Basic validation
 	if deviceIPs == "" || apiURL == "" || orgID == "" {
 		log.Println("Error: Missing required environment variables (DEVICE_IPS, API_URL, ORG_ID). Sync aborted.")
 		return
 	}
 
 	ipAddresses := strings.Split(deviceIPs, ",")
-	if len(ipAddresses) == 0 || (len(ipAddresses) == 1 && ipAddresses[0] == "") {
-
-		log.Println("Error: No device IPs configured in DEVICE_IPS. Sync aborted.")
-		return
-	}
-
-	log.Printf("Found %d device(s) to sync.", len(ipAddresses))
-
 	var allLogs []zk.AttendanceRecord
 	var zkErrs []error
 	var wg sync.WaitGroup
-	var mu sync.Mutex // Mutex to protect shared slices (allLogs, zkErrs)
-
-	// For this CLI version, we fetch all records each time.
-	// A more stateful version might store the last successful sync time per device.
-	lastChecked := time.Time{} // Zero time value fetches all records
+	var mu sync.Mutex
 
 	for _, ipPort := range ipAddresses {
-		// Ensure ipPort is not empty string which can happen with trailing commas
-		trimmedIpPort := strings.TrimSpace(ipPort)
-		if trimmedIpPort == "" {
+		addr := strings.TrimSpace(ipPort)
+		if addr == "" {
 			continue
 		}
-
 		wg.Add(1)
 		go func(deviceAddr string) {
 			defer wg.Done()
 			parts := strings.Split(deviceAddr, ":")
 			if len(parts) != 2 {
-				log.Printf("Error: Invalid device configuration format: '%s'. Expected IP:Port. Skipping.", deviceAddr)
 				mu.Lock()
 				zkErrs = append(zkErrs, fmt.Errorf("invalid device format: %s", deviceAddr))
 				mu.Unlock()
 				return
 			}
-			ip := parts[0]
-			port := parts[1]
+			ip, port := parts[0], parts[1]
 			log.Printf("Connecting to device %s:%s", ip, port)
 
-			// Create a new ZKManager instance for each connection attempt
 			zkManager, err := zk.NewZKManager(ip, port)
 			if err != nil {
-				log.Printf("Failed to create ZKManager for %s:%s: %v", ip, port, err)
 				mu.Lock()
 				zkErrs = append(zkErrs, fmt.Errorf("failed to create ZKManager for %s:%s: %w", ip, port, err))
 				mu.Unlock()
 				return
 			}
-			log.Printf("Fetching attendance logs from %s:%s", ip, port)
+
 			newLogs, err := zkManager.GetAttendance(lastChecked)
 			if err != nil {
-				log.Printf("Failed to get attendance from %s:%s: %v", ip, port, err)
 				mu.Lock()
 				zkErrs = append(zkErrs, fmt.Errorf("failed to get attendance from %s:%s: %w", ip, port, err))
 				mu.Unlock()
-				return // Stop processing for this device on error
+				return
 			}
 
-			// Lock mutex before appending to the shared slice
 			mu.Lock()
 			if len(newLogs) > 0 {
 				allLogs = append(allLogs, newLogs...)
@@ -140,31 +132,33 @@ func performSync() {
 				log.Printf("No new logs found from %s:%s", ip, port)
 			}
 			mu.Unlock()
-
-		}(trimmedIpPort)
+		}(addr)
 	}
 
-	// Wait for all goroutines to complete
 	wg.Wait()
 
-	// Log any errors encountered during device communication
 	if len(zkErrs) > 0 {
-		log.Printf("Encountered %d error(s) during ZK device communication:", len(zkErrs))
-		for _, zkErr := range zkErrs {
-			log.Println("- ", zkErr)
+		log.Printf("Encountered %d error(s) during device communication:", len(zkErrs))
+		for _, e := range zkErrs {
+			log.Println("- ", e)
 		}
-		// Continue even if some devices failed, maybe partial data is better than none
 	}
 
-	// Send collected logs to the API if any were found
 	if len(allLogs) > 0 {
 		log.Printf("Total logs collected: %d. Sending to API: %s", len(allLogs), apiURL)
-		err := sendLogsToAPI(allLogs, orgID, apiURL, apiKey) // Pass apiKey if needed
+		err := sendLogsToAPI(allLogs, orgID, apiURL, apiKey)
 		if err != nil {
 			log.Println("Error sending logs to API:", err)
 		} else {
 			log.Println("Successfully sent logs to API.")
-			// Future enhancement: Update last sync timestamp here if implementing stateful sync
+			// Persist logs locally
+			if err := saveLogsToFile(allLogs); err != nil {
+				log.Printf("Error saving logs to file: %v", err)
+			}
+			// Update last check timestamp
+			if err := saveLastCheckTime(time.Now()); err != nil {
+				log.Printf("Error saving last check time: %v", err)
+			}
 		}
 	} else {
 		log.Println("No logs collected from any device in this cycle.")
@@ -173,14 +167,10 @@ func performSync() {
 	log.Println("Sync process finished.")
 }
 
-// sendLogsToAPI marshals the logs and sends them via HTTP POST to the configured API endpoint
-func sendLogsToAPI(logs []zk.AttendanceRecord, orgID string, apiURL string, apiKey string) error {
-	payload := AttendancePayload{
-		OrgID: orgID,
-		Logs:  logs,
-	}
-
-	jsonData, err := json.Marshal(payload)
+// sendLogsToAPI marshals the logs and sends them via HTTP POST
+func sendLogsToAPI(logs []zk.AttendanceRecord, orgID, apiURL, apiKey string) error {
+	// payload := AttendancePayload{OrgID: orgID, Logs: logs}
+	jsonData, err := json.Marshal(logs)
 	if err != nil {
 		return fmt.Errorf("failed to marshal logs to JSON: %w", err)
 	}
@@ -189,43 +179,53 @@ func sendLogsToAPI(logs []zk.AttendanceRecord, orgID string, apiURL string, apiK
 	if err != nil {
 		return fmt.Errorf("failed to create API request: %w", err)
 	}
-
-	// Set headers
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Accept", "application/json")
-	// Example for adding an API Key header (uncomment and adjust if needed)
+	req.Header.Set(contentTypeHeader, jsonContentType)
+	req.Header.Set(acceptHeader, jsonContentType)
 	if apiKey != "" {
-		req.Header.Set("Authorization", "Bearer "+apiKey)
+		req.Header.Set(authorizationHeader, bearerPrefix+apiKey)
 	}
 
-	// Create an HTTP client with a timeout
-	client := &http.Client{Timeout: 45 * time.Second} // Increased timeout for potentially large payloads
-
-	// Execute the request
+	client := &http.Client{Timeout: 45 * time.Second}
 	resp, err := client.Do(req)
 	if err != nil {
-		// Network errors, timeouts, etc.
 		return fmt.Errorf("failed to execute API request: %w", err)
 	}
-	defer resp.Body.Close() // Ensure the response body is closed
+	defer resp.Body.Close()
 
-	// Check the response status code
-	if resp.StatusCode >= 200 && resp.StatusCode < 300 { // Success range (2xx)
+	if resp.StatusCode >= 200 && resp.StatusCode < 300 {
 		log.Printf("API request successful (Status: %d)", resp.StatusCode)
-		// Optionally read and log success response body if needed
-		// bodyBytes, _ := io.ReadAll(resp.Body)
-		// log.Printf("API Success Response: %s", string(bodyBytes))
 		return nil
-	} else {
-		// Read the error response body for more details
-		bodyBytes, readErr := io.ReadAll(resp.Body)
-		bodyString := ""
-		if readErr == nil {
-			bodyString = string(bodyBytes)
-		} else {
-			bodyString = fmt.Sprintf("(could not read response body: %v)", readErr)
-		}
-		log.Printf("API request failed. Status: %d, Response: %s", resp.StatusCode, bodyString)
-		return fmt.Errorf("API request failed with status code %d. Response: %s", resp.StatusCode, bodyString)
 	}
+
+	body, _ := io.ReadAll(resp.Body)
+	return fmt.Errorf("API request failed with status %d: %s", resp.StatusCode, string(body))
+}
+
+// getLastCheckTime reads the last check time from disk, or returns zero time
+func getLastCheckTime() time.Time {
+	data, err := os.ReadFile(lastCheckFile)
+	if err != nil {
+		log.Printf("No previous check time found: %v", err)
+		return time.Time{}
+	}
+	t, err := time.Parse(time.RFC3339, strings.TrimSpace(string(data)))
+	if err != nil {
+		log.Printf("Invalid time in %s: %v", lastCheckFile, err)
+		return time.Time{}
+	}
+	return t
+}
+
+// saveLastCheckTime writes the given time to disk
+func saveLastCheckTime(t time.Time) error {
+	return os.WriteFile(lastCheckFile, []byte(t.Format(time.RFC3339)), 0644)
+}
+
+// saveLogsToFile writes the logs to a JSON file
+func saveLogsToFile(logs []zk.AttendanceRecord) error {
+	data, err := json.MarshalIndent(logs, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(logsFile, data, 0644)
 }

@@ -10,8 +10,8 @@ import (
 )
 
 type AttendanceRecord struct {
-	UserID    int
-	Timestamp time.Time
+	UserID    int    `json:"employee_id"`
+	Timestamp string `json:"timestamp"` // Use string to store formatted time
 }
 
 type ZKDevice struct {
@@ -68,7 +68,7 @@ func (zk *ZKManager) GetAttendance(since time.Time) ([]AttendanceRecord, error) 
 		if attendance.Timestamp.After(since) {
 			record := AttendanceRecord{
 				UserID:    int(attendance.UserID),
-				Timestamp: attendance.Timestamp,
+				Timestamp: attendance.Timestamp.Format("2006-01-02T15:04:05"),
 			}
 			records = append(records, record)
 		}

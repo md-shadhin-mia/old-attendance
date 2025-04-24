@@ -1,0 +1,3158 @@
+[
+  {
+    "employee_id": 1,
+    "timestamp": "2023-06-20T15:47:40"
+  },
+  {
+    "employee_id": 1,
+    "timestamp": "2023-06-20T15:50:14"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-05T15:30:26"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-05T15:31:23"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-05T15:31:36"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-05T15:32:01"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-05T15:33:43"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-05T15:33:56"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-05T15:34:27"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-05T15:46:39"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-05T15:46:42"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-05T19:00:59"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-05T19:04:22"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-05T19:04:29"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-05T19:04:34"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-05T19:04:40"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-05T19:06:00"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-05T19:06:41"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-05T20:08:56"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-05T21:07:15"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-05T21:41:40"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-05T22:00:22"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-05T22:00:26"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-05T22:01:43"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-05T22:01:52"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-05T22:02:00"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-05T22:29:11"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-05T22:29:14"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-06T08:10:17"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-06T08:43:46"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T08:53:38"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-06T08:56:52"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-06T08:56:56"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-06T08:57:08"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-06T08:57:16"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-06T08:57:26"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T08:57:34"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-06T08:57:38"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-06T10:46:37"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-06T10:47:57"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-06T10:50:52"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-06T10:51:03"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-06T10:51:07"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-06T10:54:18"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-06T14:44:26"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-06T19:01:50"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-06T19:07:26"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-06T19:14:29"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-06T20:50:49"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-06T21:00:40"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-06T21:00:46"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-06T21:01:23"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T21:04:08"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T21:04:15"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T21:04:25"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-06T21:24:58"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-06T21:25:09"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-06T21:25:17"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-06T21:29:00"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-06T21:29:03"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-07T08:33:25"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-07T08:33:40"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T08:46:33"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T08:46:37"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T08:46:41"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-07T08:56:14"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-07T08:56:27"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-07T08:57:44"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-07T09:06:27"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-07T09:06:32"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-07T09:52:54"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-07T10:53:16"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-07T10:53:19"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-07T10:53:26"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-07T10:53:33"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-07T10:57:07"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-07T10:57:53"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-07T11:02:22"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-07T11:28:04"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-07T14:31:23"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-07T19:03:33"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-07T19:03:38"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-07T19:05:12"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-07T19:08:43"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-07T19:08:50"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-07T19:26:11"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-07T19:26:14"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-07T21:00:07"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-07T21:38:53"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-07T22:08:33"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-07T22:08:40"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T22:22:10"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T22:22:14"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-07T22:22:17"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-07T22:45:08"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-07T23:00:41"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-07T23:01:14"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-07T23:16:15"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-07T23:16:18"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-08T07:56:36"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-08T08:48:37"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-08T08:50:47"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-08T08:54:00"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-08T08:54:03"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-08T08:59:57"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-08T09:00:01"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-08T09:53:22"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-08T09:53:28"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-08T10:01:02"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-08T10:30:03"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-08T10:32:33"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-08T10:55:16"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-08T10:57:36"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-08T10:57:39"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-08T10:59:22"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-08T11:05:10"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-08T19:25:59"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-08T22:00:16"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-08T22:00:19"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-08T22:34:43"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-08T22:34:51"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-08T23:13:25"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-08T23:34:44"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-08T23:41:30"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-09T00:30:00"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-09T00:40:50"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-09T00:43:37"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-09T01:08:14"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-09T01:09:25"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-09T08:05:42"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-09T08:55:14"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-09T08:55:29"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-09T09:01:19"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-09T09:01:34"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-09T09:01:38"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-09T09:08:19"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-09T09:08:24"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-09T09:52:27"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-09T09:54:58"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-09T10:42:11"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-09T10:54:52"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-09T10:55:08"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-09T10:56:57"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-09T10:56:59"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-09T10:59:54"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-09T11:01:29"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-09T16:47:38"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-09T17:29:10"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-09T17:29:13"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-09T18:55:14"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-09T18:56:39"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-09T18:56:42"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-09T18:57:02"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-09T19:24:32"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-09T19:24:57"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-09T19:25:12"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-10T04:35:46"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-10T05:33:38"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-10T10:12:10"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-10T10:17:59"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-10T10:18:44"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-10T10:19:07"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-10T10:46:28"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-10T10:54:30"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-10T10:58:19"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-10T10:58:22"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-10T10:59:37"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-10T14:07:40"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-10T14:12:15"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-10T19:04:40"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-10T19:05:05"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-10T19:05:12"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-10T20:55:07"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-10T21:12:00"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-10T21:19:18"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-10T21:40:21"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-10T21:40:27"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-10T21:41:49"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-10T21:42:06"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-11T00:08:38"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-11T00:08:47"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-11T00:10:07"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-11T08:54:13"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-11T08:58:16"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-11T09:00:19"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-11T09:00:23"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-11T09:00:59"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-11T09:02:38"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-11T09:02:42"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-11T09:54:43"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-11T10:24:28"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-11T10:28:26"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-11T10:47:16"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-11T10:51:33"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-11T10:55:18"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-11T10:55:21"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-11T18:35:50"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-11T18:35:59"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-11T19:04:51"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-11T19:04:54"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-11T19:06:57"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-11T21:18:53"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-11T22:18:07"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-11T23:01:54"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-11T23:01:58"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-11T23:22:16"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-11T23:22:19"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-11T23:22:55"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-11T23:22:59"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-11T23:49:12"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-12T00:16:44"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-12T07:25:07"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-12T07:25:14"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-12T08:46:22"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-12T08:59:32"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-12T08:59:37"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-12T09:00:25"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-12T09:12:09"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-12T09:12:12"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-12T09:53:39"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-12T10:38:09"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-12T10:51:02"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-12T10:52:34"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-12T10:53:03"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-12T10:57:00"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-12T11:09:56"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-12T19:05:40"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-12T19:05:44"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-12T19:08:07"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-12T21:01:12"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-12T21:01:16"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-12T21:17:30"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-12T21:53:53"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-12T22:01:34"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-12T22:02:03"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-12T22:02:11"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-12T22:02:16"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-12T22:03:56"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-12T22:39:57"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-12T23:04:51"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-12T23:12:05"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-12T23:15:56"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-13T07:23:34"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-13T08:56:36"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-13T08:59:52"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-13T09:00:05"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-13T09:08:01"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-13T09:08:04"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-13T09:53:35"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-13T09:58:52"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-13T10:48:47"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-13T10:49:08"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-13T10:50:58"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-13T10:53:05"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-13T10:53:08"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-13T10:57:19"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-13T10:58:20"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-13T19:04:00"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-13T19:04:04"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-13T21:00:16"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-13T21:00:24"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-13T21:23:13"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-13T21:24:44"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-13T21:25:57"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-13T21:34:06"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-13T21:34:10"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-13T21:42:08"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-13T21:53:59"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-13T22:01:20"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-13T22:01:24"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-13T23:06:34"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-13T23:08:48"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-13T23:09:31"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-14T08:10:18"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-14T08:50:46"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-14T08:50:59"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-14T08:51:03"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-14T08:53:30"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-14T09:01:11"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-14T09:03:34"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-14T09:09:06"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-14T09:09:09"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-14T09:53:36"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-14T09:57:16"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-14T09:57:43"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-14T10:19:20"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-14T10:50:37"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-14T10:56:05"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-14T10:56:08"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-14T10:57:42"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-14T11:00:01"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-14T11:01:18"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-14T19:06:32"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-14T19:06:36"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-14T19:11:03"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-14T21:26:44"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-14T21:48:59"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-14T21:49:46"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-14T21:52:37"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-14T21:52:43"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-14T21:52:49"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-14T21:52:52"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-14T21:53:04"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-14T21:53:27"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-14T21:53:32"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-14T22:50:58"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-14T22:51:13"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-14T22:57:56"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-14T22:58:03"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-15T08:27:18"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-15T08:53:04"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-15T08:53:11"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-15T08:57:28"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-15T09:04:38"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-15T09:04:41"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-15T09:05:11"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-15T09:55:35"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-15T09:55:46"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-15T10:08:02"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-15T10:15:51"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-15T10:45:58"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-15T10:49:16"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-15T10:50:18"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-15T10:53:47"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-15T10:55:25"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-15T10:58:19"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-15T20:18:00"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-15T21:11:16"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-15T21:11:29"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-15T22:03:46"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-15T22:03:50"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-15T22:06:02"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-15T22:47:57"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-15T22:57:18"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-15T23:00:06"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-15T23:00:10"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-15T23:00:15"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-15T23:00:22"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-15T23:00:36"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-15T23:02:11"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-15T23:03:16"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-15T23:03:21"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-16T00:00:24"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-16T00:01:16"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-16T00:02:40"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-16T08:32:27"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-16T08:51:45"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-16T08:52:00"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-16T08:53:26"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-16T08:59:19"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-16T08:59:28"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-16T08:59:56"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-16T08:59:59"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-16T09:12:05"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-16T09:12:07"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-16T09:50:31"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-16T09:51:53"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-16T09:56:58"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-16T09:57:14"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-16T10:07:21"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-16T10:46:40"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-16T10:49:11"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-16T10:53:51"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-16T10:55:01"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-16T11:05:06"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-16T19:07:42"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-16T19:38:47"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-16T19:38:49"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-16T21:02:37"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-16T21:38:39"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-16T21:38:45"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-16T21:38:51"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-16T21:42:16"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-16T22:05:52"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-16T22:12:40"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-16T22:12:42"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-16T22:19:56"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-16T22:20:02"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-16T22:20:17"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-16T22:20:36"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-16T22:20:41"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-16T22:21:39"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-16T22:21:46"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-16T23:17:34"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-16T23:17:37"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-16T23:17:58"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-17T07:33:06"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-17T07:33:10"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-17T08:19:36"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-17T08:49:38"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-17T08:49:48"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-17T08:56:22"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-17T09:00:38"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-17T09:00:40"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-17T09:05:34"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-17T09:05:42"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-17T09:28:44"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-17T09:28:47"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-17T09:56:24"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-17T10:22:56"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-17T10:42:53"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-17T10:50:07"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-17T10:51:00"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-17T11:08:26"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-17T19:27:08"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-17T19:27:11"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-17T21:33:45"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-17T21:33:51"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-17T21:33:55"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-17T22:02:01"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-17T22:03:59"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-17T22:05:53"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-17T22:19:09"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-17T22:21:25"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-17T22:22:23"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-17T22:22:28"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-17T22:35:42"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-18T00:06:39"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-18T00:06:45"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-18T00:06:50"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-18T07:21:51"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-18T08:46:36"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-18T08:54:21"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-18T08:58:24"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-18T09:01:09"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-18T09:02:17"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-18T09:34:03"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-18T09:34:06"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-18T09:51:21"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-18T09:57:47"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-18T09:57:54"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-18T10:03:33"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-18T10:52:34"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-18T10:53:27"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-18T10:54:52"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-18T16:22:44"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-18T16:22:53"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-18T19:06:01"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-18T19:06:05"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-18T19:07:03"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-18T19:07:09"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-18T19:08:05"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-18T20:15:47"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-18T21:24:09"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-18T21:24:16"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-18T21:58:22"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-18T21:58:48"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-18T22:00:06"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-18T22:00:27"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-18T22:00:33"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-18T22:14:01"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-18T22:14:13"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-18T23:41:41"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-18T23:41:50"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-19T08:36:01"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-19T08:52:17"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-19T08:58:45"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-19T09:06:08"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-19T09:06:13"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-19T09:31:23"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-19T09:31:26"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-19T09:37:27"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-19T09:37:33"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-19T09:51:59"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-19T09:57:18"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-19T10:29:40"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-19T10:37:28"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-19T10:49:53"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-19T10:50:10"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-19T10:55:00"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-19T10:56:04"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-19T10:59:58"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-19T19:04:08"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-19T19:04:10"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-19T19:09:50"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-19T21:13:07"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-19T22:07:06"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-19T22:07:10"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-19T22:25:02"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-19T22:51:27"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-19T23:04:03"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-19T23:04:07"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-19T23:04:17"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-19T23:15:58"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-19T23:16:01"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-19T23:16:07"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-19T23:22:16"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-19T23:22:20"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-19T23:25:14"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-19T23:45:32"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-19T23:45:42"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-20T08:49:08"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-20T08:49:37"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-20T08:57:12"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-20T08:57:16"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-20T09:00:16"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-20T09:01:14"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-20T09:08:42"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-20T09:08:45"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-20T09:48:39"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-20T09:54:42"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-20T09:55:20"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-20T10:29:01"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-20T10:47:34"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-20T10:49:52"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-20T10:54:49"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-20T10:54:56"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-20T10:56:26"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-20T19:17:02"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-20T19:17:05"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-20T20:18:28"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-20T21:12:09"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-20T21:14:35"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-20T21:14:41"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-20T21:15:45"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-20T21:57:23"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-20T22:00:16"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-20T22:00:20"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-20T22:00:25"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-20T22:00:39"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-20T22:00:51"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-20T22:27:28"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-20T22:27:44"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-20T23:04:47"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-20T23:05:48"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-21T08:30:05"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-21T08:53:24"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-21T08:56:45"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-21T09:01:04"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-21T09:02:03"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-21T09:04:34"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-21T09:04:37"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-21T09:07:13"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-21T09:07:19"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-21T09:56:29"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-21T10:09:51"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-21T10:13:23"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-21T10:50:34"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-21T10:50:56"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-21T10:51:39"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-21T10:54:10"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-21T10:58:25"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-21T11:03:11"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-21T19:01:56"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-21T19:01:59"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-21T19:02:18"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-21T19:02:23"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-21T19:30:25"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-21T20:21:54"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-21T20:21:57"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-21T20:30:56"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-21T21:09:50"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-21T21:35:50"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-21T21:52:40"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-21T22:00:49"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-21T22:01:05"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-21T22:03:59"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-21T22:13:24"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-21T22:13:29"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-21T23:29:45"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-21T23:30:04"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-21T23:32:20"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-21T23:32:23"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-22T00:37:40"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-22T08:26:25"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-22T08:43:48"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-22T08:43:57"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-22T08:43:59"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-22T08:52:44"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-22T08:57:39"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-22T08:59:29"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-22T09:00:33"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-22T09:00:36"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-22T09:52:36"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-22T09:57:09"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-22T09:59:48"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-22T10:00:02"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-22T10:08:56"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-22T10:40:13"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-22T10:47:50"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-22T10:53:43"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-22T10:56:02"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-22T10:56:26"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-22T11:15:52"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-22T20:03:31"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-22T20:07:09"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-22T20:07:12"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-22T21:10:26"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-22T21:11:31"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-22T21:17:39"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-22T21:49:35"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-22T21:50:27"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-22T21:53:15"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-22T22:35:07"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-22T22:58:14"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-22T22:58:26"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-22T22:58:52"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-22T23:30:42"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-22T23:31:18"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-22T23:31:53"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-22T23:33:00"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-22T23:35:20"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-22T23:35:29"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-23T00:51:39"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-23T08:28:21"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-23T08:53:38"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-23T08:54:43"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-23T08:58:58"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-23T09:00:46"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-23T09:02:46"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-23T09:27:49"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-23T09:27:53"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-23T09:51:23"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-23T10:00:50"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-23T10:08:08"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-23T10:32:03"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-23T10:53:43"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-23T10:55:41"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-23T10:59:07"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-23T10:59:22"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-23T11:32:52"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-23T19:11:44"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-23T19:11:47"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-23T19:41:19"
+  },
+  {
+    "employee_id": 12,
+    "timestamp": "2023-09-23T19:41:29"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-23T19:54:24"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-23T20:16:51"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-23T20:25:55"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-23T20:58:29"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-23T21:05:24"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-23T21:20:08"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-23T21:20:19"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-23T21:20:27"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-23T21:20:32"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-23T21:21:13"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-23T21:31:48"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-23T21:44:42"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-23T22:01:53"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-23T22:04:31"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-23T22:59:47"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-23T23:01:16"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-24T08:16:31"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-24T08:19:54"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-24T08:54:36"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-24T08:54:49"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-24T08:55:32"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-24T08:59:35"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-24T09:04:36"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-24T09:22:15"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-24T09:22:18"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-24T09:46:58"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-24T09:56:45"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-24T09:59:57"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-24T10:32:22"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-24T10:46:54"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-24T10:47:33"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-24T10:47:57"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-24T10:53:18"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-24T19:04:47"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-24T19:15:45"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-24T19:15:48"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-24T19:20:29"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-24T21:08:53"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-24T21:12:41"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-24T21:34:08"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-24T21:34:15"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-24T21:48:16"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-24T21:49:11"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-24T21:49:19"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-24T21:58:08"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-24T21:58:16"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-24T22:03:07"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-24T22:03:10"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-24T22:48:07"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-24T22:48:15"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-24T22:48:20"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-24T22:48:37"
+  },
+  {
+    "employee_id": 13,
+    "timestamp": "2023-09-25T08:19:38"
+  },
+  {
+    "employee_id": 26,
+    "timestamp": "2023-09-25T08:47:54"
+  },
+  {
+    "employee_id": 10,
+    "timestamp": "2023-09-25T08:51:00"
+  },
+  {
+    "employee_id": 23,
+    "timestamp": "2023-09-25T08:53:35"
+  },
+  {
+    "employee_id": 7,
+    "timestamp": "2023-09-25T08:56:33"
+  },
+  {
+    "employee_id": 8,
+    "timestamp": "2023-09-25T08:56:39"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-25T09:20:49"
+  },
+  {
+    "employee_id": 2,
+    "timestamp": "2023-09-25T09:20:52"
+  },
+  {
+    "employee_id": 25,
+    "timestamp": "2023-09-25T09:53:42"
+  },
+  {
+    "employee_id": 3,
+    "timestamp": "2023-09-25T09:55:55"
+  },
+  {
+    "employee_id": 24,
+    "timestamp": "2023-09-25T09:59:48"
+  },
+  {
+    "employee_id": 27,
+    "timestamp": "2023-09-25T10:23:46"
+  },
+  {
+    "employee_id": 5,
+    "timestamp": "2023-09-25T10:36:07"
+  },
+  {
+    "employee_id": 19,
+    "timestamp": "2023-09-25T10:47:39"
+  },
+  {
+    "employee_id": 9,
+    "timestamp": "2023-09-25T10:49:45"
+  },
+  {
+    "employee_id": 21,
+    "timestamp": "2023-09-25T10:50:02"
+  },
+  {
+    "employee_id": 18,
+    "timestamp": "2023-09-25T10:51:00"
+  },
+  {
+    "employee_id": 22,
+    "timestamp": "2023-09-25T11:00:24"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2023-09-25T15:05:18"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2023-09-25T15:06:37"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2023-09-26T13:35:58"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2023-09-26T13:36:03"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2023-09-26T13:36:12"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-03T12:22:29"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-03T12:22:33"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-03T18:09:10"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-04T15:59:26"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-04T16:03:27"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-04T16:05:47"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-04T16:09:33"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-05T09:51:28"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-05T09:51:33"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-05T13:21:23"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-05T13:21:26"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-05T13:21:57"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-05T13:22:04"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-05T13:22:07"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-06T23:14:38"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-07T01:02:12"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-07T02:47:38"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-07T05:05:58"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-07T21:56:08"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-07T21:56:16"
+  },
+  {
+    "employee_id": 30,
+    "timestamp": "2024-12-07T21:57:42"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-11T17:06:36"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-11T17:06:40"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-11T17:07:37"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-11T18:09:27"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-11T18:09:30"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-17T10:15:11"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-17T10:15:16"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-17T12:25:43"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-18T10:13:54"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-18T10:13:58"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-18T10:14:02"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-19T16:38:02"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-21T15:42:22"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-23T08:28:25"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-23T08:28:34"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-23T08:28:40"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-26T10:26:55"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-26T10:26:58"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-26T10:27:03"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-26T11:24:00"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2024-12-29T17:04:19"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-30T09:09:45"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-30T09:09:52"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-30T09:09:56"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-30T09:52:43"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-30T09:52:48"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-30T18:12:36"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-30T18:12:41"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-30T18:12:44"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2024-12-31T15:20:04"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2024-12-31T15:20:08"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2024-12-31T15:20:12"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-01-09T10:18:09"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-01-09T10:18:14"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-01-21T13:28:52"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-01-23T17:25:13"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-01-30T12:20:42"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-01-30T12:20:51"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-02-10T16:18:04"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-02-10T16:18:10"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-02-10T16:18:14"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-02-13T16:47:10"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-02-13T16:55:30"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-02-13T16:55:36"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-02-13T16:55:41"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-02-13T16:55:45"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-02-13T16:55:56"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-02-17T12:30:20"
+  },
+  {
+    "employee_id": 29,
+    "timestamp": "2025-02-26T12:41:50"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-03-12T10:30:29"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-03-12T10:30:34"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-03-12T12:16:35"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-03-12T12:16:42"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-03-12T12:16:45"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-03-12T12:16:49"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-03-25T11:06:04"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-04-13T16:41:00"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-04-13T16:41:13"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-23T12:32:59"
+  },
+  {
+    "employee_id": 20,
+    "timestamp": "2025-04-24T12:55:51"
+  },
+  {
+    "employee_id": 1000,
+    "timestamp": "2025-04-24T12:55:55"
+  },
+  {
+    "employee_id": 28,
+    "timestamp": "2025-04-24T12:55:59"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T12:56:11"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T12:56:19"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T15:49:56"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T16:17:11"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T16:45:01"
+  },
+  {
+    "employee_id": 31,
+    "timestamp": "2025-04-24T16:45:05"
+  }
+]
